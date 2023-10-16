@@ -1,0 +1,14 @@
+.form {
+  border: 1px solid blue;
+  padding: 20px 40px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 1px;
+  margin-bottom: 10px;
+}
