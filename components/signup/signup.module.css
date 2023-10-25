@@ -1,5 +1,5 @@
 .form {
-  border: 1px solid blue;
+  border: 2px solid rgb(16, 16, 16);
   padding: 20px 40px;
   border-radius: 10px;
   width: 50%;
@@ -9,7 +9,38 @@
 .formGroup {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  row-gap: 1px;
-  margin-bottom: 10px;
+  width: 80%;
+  row-gap: 10px;
+  margin-bottom: 1px;
+  margin: 0 auto;
+}
+
+.errorDiv {
+  min-height: 20px !important ;
+  margin: 0px !important;
+  padding: 0px !important;
+  .error {
+    margin: 0px;
+    font-size: 10px;
+    color: red;
+    font-weight: 400;
+    padding-top: 1px;
+  }
+}
+
+.SignupBtn {
+  background-color: black;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 10px;
+}
+.SignupBtnInvalid:hover {
+  transform: translateX(150px);
+}
+
+.SignupBtnInvalid {
+  background-color: black;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 10px;
 }
